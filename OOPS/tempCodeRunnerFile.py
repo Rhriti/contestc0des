@@ -1,0 +1,1 @@
+print(person.__contact)

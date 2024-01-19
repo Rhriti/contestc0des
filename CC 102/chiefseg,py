@@ -1,0 +1,26 @@
+# cook your dish here
+for _ in range(int(input())):
+    n=int(input())
+    arr=list(map(int,input().split()))
+    arr.sort()
+
+    # memo={}
+    # def dp(i,d):
+    #     #base
+    #     if i==n:
+    #         return 0
+    #     if (i,d) in memo:
+    #         return memo[(i,d)]
+            
+    #     maxl=dp(i+1,d)
+    #     if arr[i]%d==0:
+    #         maxl=max(maxl,1+dp(i+1,arr[i]))
+    #     memo[(i,d)]=maxl
+    #     return maxl
+        
+        
+    # maxm=-1
+    # for i in range(n):
+    #     maxm=max(maxm,arr[i]*dp(i,1))
+    # print(maxm)
+            

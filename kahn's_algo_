@@ -1,0 +1,23 @@
+e=[['a','c'],['a','d'],['b','c'],['c','e']]
+from collections import defaultdict
+g=defaultdict(list)
+ing=defaultdict(int)
+for u,v in e:
+    g[v]
+    g[u].append(v)
+    ing[v]+=1
+    ing[u]
+
+st=[]
+for ele in ing:
+    if ing[ele]==0:
+        st.append(ele)
+final=[]
+while st:
+    out=st.pop()
+    final.append(out)
+    for ele in g[out]:
+        ing[ele]-=1
+        if ing[ele]==0:
+            st.append(ele)
+print(final)

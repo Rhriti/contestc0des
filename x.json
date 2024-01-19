@@ -1,0 +1,101 @@
+{
+    "text-1": {
+      "value": "Hello Students!",
+      "fontWeight": "bold",
+      "fontSize": "24px"
+    },
+    "space-1": {
+      "height": "32px"
+    },
+    "space-xJy": {
+      "height": "16px",
+      "color": "#FFF"
+    },
+    "grid-Txk": {
+      "columns": "3",
+      "paddingVertical": "8px",
+      "items": [
+        {
+          "image": {
+            "src": "https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep/t_high_res_category/images/growth/home-screen/1609757635235-1a139e.png",
+            "height": "32px"
+          },
+          "text": {
+            "value": "Women's Salon & Spa",
+            "fontSize": "10px",
+            "marginVertical": "8px"
+          }
+        },
+        {
+          "image": {
+            "src": "https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep/t_high_res_category/images/growth/home-screen/1609757629780-2b2187.png",
+            "height": "32px"
+          },
+          "text": {
+            "value": "Men's Salon & Massage",
+            "fontSize": "10px",
+            "marginVertical": "8px"
+          }
+        },
+        {
+          "image": {
+            "src": "https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep/t_high_res_category/categories/category_v2/category_72d18950.png",
+            "height": "32px"
+          },
+          "text": {
+            "value": "AC & Appliance Repair",
+            "fontSize": "10px",
+            "marginVertical": "8px"
+          }
+        },
+        {
+          "image": {
+            "src": "https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep/t_high_res_category/categories/category_v2/category_6b1f5250.png",
+            "height": "32px"
+          },
+          "text": {
+            "value": "Cleaning & Pest Control",
+            "fontSize": "10px",
+            "marginVertical": "8px"
+          }
+        },
+        {
+          "image": {
+            "src": "https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep/t_high_res_category/categories/category_v2/category_6fbad370.png",
+            "height": "32px"
+          },
+          "text": {
+            "value": "Electrician, Plumber & Carpenter",
+            "fontSize": "10px",
+            "marginVertical": "8px"
+          }
+        },
+        {
+          "image": {
+            "src": "https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep/t_high_res_category/images/supply/partner-app-supply/1662525927640-954478.png",
+            "height": "32px"
+          },
+          "text": {
+            "value": "Home Painting",
+            "fontSize": "10px",
+            "marginVertical": "8px"
+          }
+        }
+      ]
+},
+    "image-1": {
+      "src": "https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_585/t_high_res_template/images/growth/luminosity/1667390631025-141d67.jpeg"
+    },
+    "space-QPV": {
+        "height": "16px",
+        "color": "#FFF"
+      },
+     
+    "button-fuJ": {
+        "text": "View All Services",
+        "color": "#6d42e5",
+        "type": "outline"
+      }
+    
+}
+

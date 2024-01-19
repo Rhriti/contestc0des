@@ -1,0 +1,45 @@
+class Solution:
+    def minCost(self, n , cuts ) :
+        memo={}
+        def f(s,e):
+            if (s,e) in memo:
+                return memo[(s,e)]
+            minm=float('inf')
+            for i in cuts:
+                if s<i<e:
+                    minm=min(minm,e-s + f(s,i)+f(i,e))
+                    
+            memo[(s,e)]=minm if minm!=float('inf') else 0
+            return memo[(s,e)]
+        
+        return f(0,n)
+
+class Solution:
+    def makeGood(self, s):
+        
+        while True:
+            
+            l=set()
+            i=0
+            while i<=len(s)-2:
+                if s[i].islower() and s[i].upper()==s[i+1] or s[i].isupper() and s[i].lower()==s[i+1]:
+                    l.add(i)
+                    i+=2
+                    continue
+                i+=1
+            
+            if len(l)==0:
+                return s
+                
+            snew=''
+            i=0
+            while i<=len(s)-1:
+                if i in l:
+                    i+=2
+                    continue
+                snew+=s[i]
+                i+=1
+            s=snew
+                
+            
+            
